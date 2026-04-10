@@ -123,7 +123,22 @@
       background-color: #1a1a1a;
       color: white;
     }
-      /* 🔥 Accesibilidad */
+
+    /* TESTIMONIOS */
+    .dark-mode .testimonial {
+     background-color: #2e2e2e;
+     color: white;
+     box-shadow: 0 5px 15px rgba(255,255,255,0.05);
+     transition: 0.3s;
+   }
+    
+    /* HOVER en modo oscuro */
+   .dark-mode .testimonial:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 10px 25px rgba(255,255,255,0.1);
+   }
+    
+      /* Accesibilidad */
   button:focus, a:focus {
     outline: 2px solid #c8a27a;
     outline-offset: 2px;
